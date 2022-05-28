@@ -3,8 +3,8 @@ import json
 from bs4 import BeautifulSoup
 
 #url = 'https://www.fakenamegenerator.com/gen-random-ninja-br.php'
-url = 'https://www.fakenamegenerator.com/gen-random-tlh-br.php'
-#url = 'https://www.fakenamegenerator.com/gen-random-br-br.php'
+#url = 'https://www.fakenamegenerator.com/gen-random-tlh-br.php'
+url = 'https://www.fakenamegenerator.com/gen-random-br-br.php'
 
 headers_dict = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36 OPR/87.0.4390.36'}
 
