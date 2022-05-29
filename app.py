@@ -3,6 +3,8 @@ from raspagem import busca_pessoa
 
 app = Flask(__name__)
 
+app.config['JSON_AS_ASCII'] = False
+
 @app.route("/")
 def hello_world():
     dados = busca_pessoa()
