@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
 @app.route("/")
-def hello_world():
+def inicio():
     dados = busca_pessoa()
     return jsonify(dados)
 
