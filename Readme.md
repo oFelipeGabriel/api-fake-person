@@ -3,7 +3,7 @@
 Api feita pera buscar dados públicos que são ficticios gerados pelo site https://www.fakenamegenerator.com
 
 ### Live
-http://gera-dados-falsos.herokuapp.com
+https://api-fake-person-ofelipegabriel.vercel.app
 
 ## Para rodar o projeto localmente:
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ### Inicie a plicação
 ```bash
-python app.py
+python inddex.py
 ```
 
 Ao final o projeto estará rodando em http://127.0.0.1:5000
